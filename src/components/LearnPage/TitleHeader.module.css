@@ -1,0 +1,8 @@
+.titleHeader {
+  background-color: var(--color-black);
+  grid-column: 1 / -1;
+}
+
+.titleHeader > h2 {
+  color: var(--color-light-0);
+}

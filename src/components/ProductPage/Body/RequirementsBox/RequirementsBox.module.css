@@ -1,0 +1,15 @@
+.requirementsBox {
+  padding: 20px;
+}
+
+.requirementsBox > h2 {
+  margin-bottom: 20px;
+}
+
+.requirementsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  /* list-style-position: inside; */
+}

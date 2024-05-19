@@ -1,0 +1,49 @@
+.courseCard {
+  width: 260px;
+  /* To avoid flex-item shrinkage when flex-items overflow */
+  /* min-width: 260px; */
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.courseCard img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.courseCardBody {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.courseCardBody p {
+  color: var(--color-grey);
+}
+
+.ratingBox {
+  display: flex;
+  column-gap: 8px;
+}
+
+.priceBox {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.priceBox > p {
+  text-decoration: line-through;
+}
+
+.label {
+  background-color: var(--color-label);
+  width: fit-content;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.hidden {
+  visibility: hidden;
+}

@@ -1,0 +1,13 @@
+.reviewsBox {
+  padding: 20px;
+}
+
+.reviewsBox > h2 {
+  margin-bottom: 20px;
+}
+
+.reviewsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

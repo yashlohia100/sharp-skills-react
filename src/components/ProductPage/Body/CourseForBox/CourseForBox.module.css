@@ -1,0 +1,15 @@
+.courseForBox {
+  padding: 20px;
+}
+
+.courseForBox > h2 {
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  /* list-style-position: inside; */
+}

@@ -1,0 +1,39 @@
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  border-top: 1px solid var(--color-grey);
+  padding: 20px 0;
+}
+
+.reviewHeader {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.userImg > h4 {
+  background-color: var(--color-black);
+  color: var(--color-light-0);
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.userData {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.helpful {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.helpful > i {
+  cursor: pointer;
+  font-size: 1.2rem;
+}

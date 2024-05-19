@@ -1,0 +1,7 @@
+.syllabusBox {
+  padding: 20px;
+}
+
+.syllabusBox > h2 {
+  margin-bottom: 20px;
+}

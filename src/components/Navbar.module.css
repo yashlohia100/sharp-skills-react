@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--color-dark-1);
+  color: var(--color-light-0);
+  padding: 6px 40px;
+}
+
+.logo {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.logo > i {
+  font-size: 2.8rem;
+}
+
+.logo > h1 {
+  color: var(--color-light-0);
+}
+
+.links {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.links > :global(.active) {
+  text-decoration: underline;
+}
+
+.links img {
+  width: 40px;
+  border-radius: 50%;
+}

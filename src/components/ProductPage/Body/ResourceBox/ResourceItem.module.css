@@ -1,0 +1,9 @@
+.resourceItem {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.resourceItem > i {
+  font-size: 1.4rem;
+}

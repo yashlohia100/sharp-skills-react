@@ -1,0 +1,28 @@
+.accordianItemHeader {
+  display: flex;
+  column-gap: 20px;
+
+  background-color: var(--color-dark-0);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.accordianItemBody {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  padding: 20px;
+
+  animation-name: animate-fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

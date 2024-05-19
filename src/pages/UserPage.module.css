@@ -1,0 +1,10 @@
+.userPage {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  margin: 50px auto 200px;
+
+  /* height: 80vh; */
+  min-height: 65rem;
+}

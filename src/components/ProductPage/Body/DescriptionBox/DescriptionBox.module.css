@@ -1,0 +1,13 @@
+.descriptionBox {
+  padding: 20px;
+}
+
+.descriptionBox > h2 {
+  margin-bottom: 20px;
+}
+
+.paraList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}

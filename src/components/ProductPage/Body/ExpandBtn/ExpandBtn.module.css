@@ -1,0 +1,11 @@
+.expandBtn {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  margin-top: 20px;
+  padding-left: 20px;
+  color: var(--color-dark-1);
+  font-weight: bold;
+  cursor: pointer;
+}

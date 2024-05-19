@@ -1,0 +1,16 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+
+  /* background-color: #609966; */
+  /* background-color: #a188b0; */
+  background-color: #6e4a8c;
+  padding: 20px 2px;
+}
+
+.sidebar :global(.active) {
+  color: var(--color-light-0);
+  border-left: 5px solid var(--color-light-0);
+  transition: border-left 250ms;
+}

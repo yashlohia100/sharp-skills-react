@@ -1,0 +1,9 @@
+.learningPoint {
+  display: flex;
+  column-gap: 10px;
+}
+
+.learningPoint > i {
+  color: var(--color-dark-1);
+  font-size: 1.2rem;
+}

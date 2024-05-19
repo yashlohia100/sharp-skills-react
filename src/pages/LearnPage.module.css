@@ -1,0 +1,10 @@
+.learnPage {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  grid-template-rows: auto auto auto 1fr;
+}
+
+.mainContainer {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}

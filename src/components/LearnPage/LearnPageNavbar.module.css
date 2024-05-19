@@ -1,0 +1,9 @@
+.learnPageNavbar {
+  background-color: lightcoral;
+}
+
+.links {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+.loginPrompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 9rem;
+}
+
+.loginPrompt > h2 {
+  color: var(--color-black);
+  margin-bottom: 1rem;
+}
+
+.buttonDiv {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.linkAsButton {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 12px 24px;
+  background-color: var(--color-dark-1);
+  color: var(--color-light-0);
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.learningBox {
+  /* padding: 20px; */
+}
+
+.learningBox > h2 {
+  /* margin-bottom: 20px; */
+}
+
+.pointsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

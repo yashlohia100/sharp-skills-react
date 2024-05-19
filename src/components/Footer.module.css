@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+
+  background-color: var(--color-light-1);
+  height: 260px;
+  padding: 60px;
+  color: var(--color-black);
+}
+
+.logo {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.logo > i {
+  font-size: 2.8rem;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.footerLinks {
+  display: flex;
+  column-gap: 20px;
+}
+
+.copyright > p {
+  color: var(--color-grey);
+  text-align: end;
+}

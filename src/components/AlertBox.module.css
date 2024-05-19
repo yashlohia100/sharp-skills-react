@@ -1,0 +1,24 @@
+.alertBox {
+  position: absolute;
+  width: 600px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: var(--color-dark-0);
+  padding: 14px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.red {
+  background-color: darkred;
+}
+
+.green {
+  background-color: seagreen;
+}
+
+.alertBox > p {
+  color: var(--color-light-0);
+  text-align: center;
+}

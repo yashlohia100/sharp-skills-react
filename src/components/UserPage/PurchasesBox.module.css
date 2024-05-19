@@ -1,0 +1,19 @@
+.purchasesBox {
+  padding: 20px 0;
+}
+
+.purchasesBox > h2 {
+  color: var(--color-grey);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.coursesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 80px;
+  column-gap: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
